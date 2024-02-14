@@ -1,0 +1,3 @@
+uzivatel1:heslo1
+uzivatel2:heslo2
+uzivatel3:heslo3
