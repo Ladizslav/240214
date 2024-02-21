@@ -24,15 +24,27 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
+
+        .logout-btn {
+            color: #fff;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .logout-btn:hover {
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-
 <div class="success-message">
     <h1>Úspěšné přihlášení!</h1>
     <p>Vítejte na naší stránce.</p>
-</div>
+    
+    <!-- Přidán odkaz na domovskou stránku -->
+    <p><a href="index.php" class="logout-btn">Domovská stránka</a></p>
 
+    
+</div>
 </body>
 </html>
-
